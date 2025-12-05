@@ -59,10 +59,10 @@ from 25x12 px to 876x501 px, but most of them inside 128x128 px. Then they are n
 
 ### Model architecture
 Backbone consists of 5 convolutional blocks each containing:
-    - Convolution 
-    - Batch Normalizaiton
-    - Activation (ReLu)
-    - Pooling
+ - Convolution 
+ - Batch Normalizaiton
+ - Activation (ReLu)
+ - Pooling
 
 This is followed by a regression head and a classification head for the bounding boxes and digit classification tasks 
 respectively.
